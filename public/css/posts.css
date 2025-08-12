@@ -1,0 +1,31 @@
+body {
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    color: #333;
+}
+
+.post-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.author-link,
+.country-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.author-link:hover,
+.country-link:hover {
+    text-decoration: underline;
+}
